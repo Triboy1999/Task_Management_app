@@ -4,13 +4,22 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Description: We have provided a sample UI. You are required to create a flutter app with 2 tabs -
+1. Home
+2. My Tasks
 
-A few resources to get you started if this is your first Flutter project:
+   
+Home Tab Functionalities:
+1. Add Task -> + icon (FAB button and on task tab) should open a popup to add task. Task
+will have a name, description, start date, end date, start time and end time
+2. Use date time pickers for ease of UX
+3. Home tab will display 4 upcoming tasks as tiles
+4. Below that home will display 2 ongoing tasks
+5. On clicking see all -> open my tasks tab
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   
+My task tab functionalities:
+1. Show all tasks sorted by start date
+2. There is an add button at the top right corner to add tasks. Same functionality as add
+button on home
+3. Edit button to edit a certain task
